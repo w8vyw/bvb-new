@@ -1,0 +1,9 @@
+.Heading {
+	font-size: 40px;
+	font-weight: 700;
+	color: var(--primary);
+
+	@media (max-width: 768px) {
+		font-size: 28px;
+	}
+}

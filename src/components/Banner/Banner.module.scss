@@ -1,0 +1,27 @@
+.Banner {
+	position: relative;
+
+	color: white;
+}
+
+.SwiperContainer {
+	z-index: -1;
+}
+
+.SwiperSlide {
+}
+
+.Image {
+	object-fit: cover;
+	object-position: center;
+	height: 10%;
+}
+
+.TextContainer {
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	width: 100%;
+	padding-top: 10%;
+}

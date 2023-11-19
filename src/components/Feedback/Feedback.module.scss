@@ -1,0 +1,75 @@
+.Feedback {
+	padding-top: 50px;
+}
+
+.Heading {
+	margin-bottom: 50px;
+
+	@media (max-width: 992px) {
+		text-align: center;
+		margin-bottom: 30px;
+	}
+}
+
+.Form {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 20px;
+
+	@media (max-width: 992px) {
+		align-items: center;
+	}
+}
+
+.Label {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+
+	&__Text {
+		width: 170px;
+	}
+
+	@media (max-width: 992px) {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+}
+
+.Input {
+	display: block;
+	min-width: 400px;
+	margin-right: 10px;
+	padding: 10px 20px;
+	border: 2px solid var(--primary);
+	border-radius: 25px;
+
+	@media (max-width: 992px) {
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+
+	@media (max-width: 576px) {
+		width: 100%;
+		min-width: 320px;
+	}
+}
+
+.Note {
+}
+
+.Status {
+	color: #e51d29;
+
+	&.Success {
+		color: var(--primary);
+	}
+}
+
+.Button {
+	padding: 10px 30px;
+	background: #000;
+	border-radius: 20px;
+	color: white;
+}

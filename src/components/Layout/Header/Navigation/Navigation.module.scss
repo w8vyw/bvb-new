@@ -1,0 +1,15 @@
+.List {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+
+	font-weight: 500;
+}
+
+.WhatsApp {
+	width: 20px;
+	height: 20px;
+	fill: var(--secondary);
+}

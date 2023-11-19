@@ -1,0 +1,21 @@
+.Advantages {
+	margin-bottom: 7 0px;
+}
+
+.Container {
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	align-items: flex-start;
+	gap: 50px;
+
+	@media (max-width: 1230px) {
+		grid-template-columns: 1fr;
+		justify-content: center;
+	}
+}
+
+.Heading {
+	margin-bottom: 50px;
+
+	text-align: center;
+}

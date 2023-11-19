@@ -1,0 +1,32 @@
+body {
+	display: flex;
+	flex-direction: column;
+
+	color: var(--secondary);
+
+	@media (max-width: 768px) {
+		font-size: 16px;
+	}
+}
+
+main {
+	flex-grow: 1;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: white;
+}
+
+::-webkit-scrollbar-thumb {
+	background: var(--primary);
+	border-radius: 10px;
+}
+
+::selection {
+	background: var(--primary);
+	color: white;
+}

@@ -1,0 +1,194 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+	font: inherit;
+	color: inherit;
+}
+
+html,
+body,
+:root {
+	width: 100%;
+	min-width: 360px;
+	min-height: 100dvh;
+	scroll-behavior: smooth;
+	font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.15;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-text-size-adjust: 100%;
+	color: black;
+	tab-size: 2;
+	-moz-tab-size: 2;
+}
+
+img,
+picture,
+video {
+	display: block;
+	max-width: 100%;
+}
+
+a,
+a:link,
+a:hover,
+a:focus,
+a:active,
+a:visited {
+	text-decoration: none;
+}
+
+ol,
+ul,
+li {
+	list-style: none;
+}
+
+a,
+button,
+details {
+	cursor: pointer;
+}
+
+b,
+strong {
+	font-weight: bolder;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	overflow-wrap: break-word;
+}
+
+a {
+	transition: 0.2s ease-in-out;
+}
+
+button {
+	background: none;
+	transition: 0.3s ease-in-out;
+}
+
+hr {
+	height: 0;
+}
+
+abbr[title] {
+	text-decoration: underline dotted;
+}
+
+code,
+kbd,
+samp,
+pre {
+	font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+	font-size: 1em;
+}
+
+small {
+	font-size: 80%;
+}
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+sup {
+	top: -0.5em;
+}
+
+table {
+	text-indent: 0;
+	border-color: inherit;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+	font-family: inherit;
+	font-size: 100%;
+	line-height: 1.15;
+	margin: 0;
+}
+
+button,
+select {
+	text-transform: none;
+}
+
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+	-webkit-appearance: button;
+}
+
+::-moz-focus-inner {
+	border-style: none;
+	padding: 0;
+}
+
+:-moz-focusring {
+	outline: 1px dotted ButtonText;
+}
+
+:-moz-ui-invalid {
+	box-shadow: none;
+}
+
+legend {
+	padding: 0;
+}
+
+progress {
+	vertical-align: baseline;
+}
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+	height: auto;
+}
+
+[type='search'] {
+	-webkit-appearance: textfield;
+	outline-offset: -2px;
+}
+
+:-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+	-webkit-appearance: button;
+	font: inherit;
+}
+
+summary {
+	display: list-item;
+}
+
+[class*='copyrights-pane'] {
+	display: none;
+}

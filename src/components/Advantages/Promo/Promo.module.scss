@@ -1,0 +1,58 @@
+.Promo {
+	position: relative;
+
+	width: 270px;
+	margin: 0 auto;
+	padding: 20px;
+	background: var(--primary);
+	border: 4px solid var(--secondary);
+	border-radius: 25px;
+	overflow: hidden;
+
+	color: white;
+}
+
+.Icon {
+	position: absolute;
+	top: -45px;
+	right: -45px;
+
+	width: 200px;
+	height: 200px;
+
+	opacity: 0.35;
+}
+
+.Title {
+	position: relative;
+
+	margin-bottom: 12px;
+
+	font-size: 28px;
+	font-weight: 600;
+}
+
+.Description {
+	position: relative;
+
+	font-size: 18px;
+
+	margin-bottom: 40px;
+}
+
+.Button {
+	display: block;
+	padding: 12px;
+	background: var(--secondary);
+	border-radius: 15px;
+
+	font-size: 22px;
+	font-weight: 500;
+	text-align: center;
+
+	&:hover {
+		background: white;
+
+		color: var(--secondary);
+	}
+}

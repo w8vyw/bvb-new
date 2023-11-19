@@ -1,0 +1,41 @@
+{
+	"name": "bvblogistics.com",
+	"version": "2.0.0",
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start"
+	},
+	"dependencies": {
+		"clsx": "^2.0.0",
+		"next": "^14.0.1",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-hook-form": "^7.47.0",
+		"react-type-animation": "^3.2.0",
+		"sharp": "^0.32.6",
+		"swiper": "^11.0.4"
+	},
+	"devDependencies": {
+		"@trivago/prettier-plugin-sort-imports": "^4.2.1",
+		"eslint": "^8.52.0",
+		"eslint-config-next": "^14.0.0",
+		"eslint-config-prettier": "^9.0.0",
+		"eslint-plugin-prettier": "^5.0.1",
+		"prettier": "^3.0.3",
+		"sass": "^1.69.5"
+	},
+	"browserslist": {
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		],
+		"production": [
+			"> 0.2%",
+			"not dead",
+			"not op_mini all"
+		]
+	},
+	"packageManager": "yarn@4.0.0"
+}

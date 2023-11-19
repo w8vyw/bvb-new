@@ -1,0 +1,31 @@
+.Footer {
+	padding: 40px 0;
+
+	font-size: 18px;
+}
+
+.Container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	gap: 30px 0;
+}
+
+.Logo {
+	@media (max-width: 1200px) {
+		width: 100%;
+		text-align: center;
+	}
+}
+
+.Authors {
+	span {
+		font-weight: 600;
+	}
+
+	@media (max-width: 1200px) {
+		width: 100%;
+		text-align: center;
+	}
+}

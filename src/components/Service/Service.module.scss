@@ -1,0 +1,32 @@
+.Section {
+	background: var(--secondary);
+
+	color: white;
+
+	margin-bottom: 0;
+	padding-bottom: 100px;
+}
+
+.Heading {
+	margin-bottom: 50px;
+
+	text-align: center;
+	color: white;
+}
+
+.List {
+	margin-bottom: 35px;
+}
+
+.Note {
+	font-size: 14px;
+	text-align: center;
+	color: var(--primary);
+
+	&__Link {
+		display: block;
+
+		font-size: 20px;
+		color: white;
+	}
+}
