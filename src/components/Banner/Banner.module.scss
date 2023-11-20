@@ -1,27 +1,38 @@
-.Banner {
+.Container {
 	position: relative;
 
+	font-size: 50px;
+	font-weight: 700;
+	text-align: center;
 	color: white;
+
+	@media (max-width: 992px) {
+		font-size: 40px;
+	}
+
+	@media (max-width: 768px) {
+		font-size: 30px;
+	}
 }
 
 .SwiperContainer {
 	z-index: -1;
 }
 
-.SwiperSlide {
-}
-
 .Image {
 	object-fit: cover;
 	object-position: center;
-	height: 10%;
+	height: 600px;
 }
 
-.TextContainer {
+.Content {
 	position: absolute;
-	top: 0;
+	top: 200px;
 	left: 0;
 
 	width: 100%;
-	padding-top: 10%;
+
+	&__Container {
+		max-width: 800px;
+	}
 }

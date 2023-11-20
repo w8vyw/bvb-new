@@ -7,7 +7,7 @@ import { Service } from '@/components/Service/Service'
 export function HomeScreen() {
 	return (
 		<>
-			{/* <Banner /> */}
+			<Banner />
 			<About />
 			<Service />
 			<Advantages />

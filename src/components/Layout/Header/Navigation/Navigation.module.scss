@@ -1,15 +1,70 @@
 .List {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
 	align-items: center;
 	gap: 20px;
 
+	font-size: 20px;
 	font-weight: 500;
+	color: white;
+
+	@media (max-width: 768px) {
+		font-size: 18px;
+	}
+}
+
+.Link {
+	display: block;
+	padding: 5px;
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: #00e676;
+	}
+}
+
+.WhatsAppItem {
+	@media (max-width: 410px) {
+		display: none;
+	}
 }
 
 .WhatsApp {
-	width: 20px;
-	height: 20px;
-	fill: var(--secondary);
+	width: 30px;
+	height: 30px;
+}
+
+.ContactItem {
+	@media (max-width: 1130px) {
+		display: none;
+	}
+}
+
+.NavItem {
+	@media (max-width: 600px) {
+		display: none;
+	}
+}
+
+.Button {
+	padding: 10px 20px 12px 20px;
+	background: #00e676;
+	border-radius: 20px;
+
+	color: white;
+
+	transition: 0.3s ease-in-out;
+
+	&:hover,
+	&:focus,
+	&:active {
+		background: white;
+
+		color: #00e676;
+	}
+
+	@media (max-width: 768px) {
+		padding: 10px 15px;
+	}
 }

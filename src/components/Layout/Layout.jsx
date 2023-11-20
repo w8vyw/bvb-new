@@ -13,7 +13,7 @@ export function Layout({ children }) {
 	return (
 		<html lang='ru'>
 			<body className={inter.className}>
-				{/* <Header /> */}
+				<Header />
 				<main>{children}</main>
 				{/* <Footer /> */}
 			</body>

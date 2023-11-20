@@ -16,7 +16,7 @@ register()
 
 export function Banner() {
 	return (
-		<div className={styles.Banner}>
+		<section className={styles.Container}>
 			<swiper-container
 				class={styles.SwiperContainer}
 				autoplay='true'
@@ -26,7 +26,7 @@ export function Banner() {
 				effect='fade'
 				speed='800'
 			>
-				<swiper-slide class={styles.SwiperSlide}>
+				<swiper-slide>
 					<NextImage
 						className={styles.Image}
 						priority
@@ -60,11 +60,13 @@ export function Banner() {
 					/>
 				</swiper-slide>
 			</swiper-container>
-			<div className={styles.TextContainer}>
-				<Wrapper className={styles.Text}>
-					<h1>Оперативная доставка грузов из Турции с гарантией</h1>
+			<div className={styles.Content}>
+				<Wrapper className={styles.Content__Container}>
+					<h1 className={styles.Text__Title}>
+						Оперативная доставка грузов из Турции с гарантией
+					</h1>
 				</Wrapper>
 			</div>
-		</div>
+		</section>
 	)
 }
