@@ -23,6 +23,18 @@
 	object-fit: cover;
 	object-position: center;
 	height: 600px;
+
+	@media (max-width: 992px) {
+		height: 500px;
+	}
+
+	@media (max-width: 768px) {
+		height: 350px;
+	}
+
+	@media (max-width: 576px) {
+		height: 250px;
+	}
 }
 
 .Content {
@@ -31,6 +43,14 @@
 	left: 0;
 
 	width: 100%;
+
+	@media (max-width: 768px) {
+		top: 150px;
+	}
+
+	@media (max-width: 576px) {
+		top: 100px;
+	}
 
 	&__Container {
 		max-width: 800px;
